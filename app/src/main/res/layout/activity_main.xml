@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is the homepage, the loading screen if you will but it has buttons, so not really-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Homescreen_Graphic"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:shadowColor="@color/purple_grey"
+        android:shadowDx="-20"
+        android:shadowDy="20"
+        android:shadowRadius="30"
+        android:text="Blindr"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--        TODO: -->
+<!--        Make Button reusable file-->
+<!--            Make buttons round- -->
+<!--            Make multiple buttons (one for shadow)-->
+<!--        Make text reusable file?-->
+<!--        Buttons shouldn't fit to string length-->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:fontFamily="@font/fredoka_one"
+        android:shadowColor="@color/yellow_accent"
+        android:shadowDx="-60"
+        android:shadowDy="60"
+        android:shadowRadius="60"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Material3.Chip" />
+
+
+    <Button
+        android:id="@+id/login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/fredoka_one"
+        android:shadowDx="-60"
+        android:shadowDy="60"
+        android:shadowRadius="60"
+        android:shadowColor="@color/yellow_accent"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
