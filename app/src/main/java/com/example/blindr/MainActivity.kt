@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
     }
 //
     public fun gotoSignUp(view: View) {
-    //TODO: FIX THIS DUMB SHIT ---> startActivity(Intent(this, SignUpActivity::class.java))
+        startActivity(Intent(this, SignUpActivity::class.java))
     }
 }
