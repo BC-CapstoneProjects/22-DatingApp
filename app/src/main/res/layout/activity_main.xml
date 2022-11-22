@@ -8,41 +8,77 @@
     tools:context=".MainActivity">
 
     <Button
+
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Material3.Chip"
         android:id="@+id/launch_login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="370dp"
+
+        android:shadowColor="@color/yellow_accent"
+        android:shadowDx="-60"
+        android:shadowDy="60"
+        android:shadowRadius="60"
+
         android:onClick="gotoLogin"
+
         android:text="Login"
         android:fontFamily="@font/fredoka_one"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="35sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+
+        />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="72dp"
+
         android:fontFamily="@font/fredoka_one"
+        android:textColor="@color/white"
         android:text="Blindr"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="48sp"
+
+        android:shadowColor="@color/purple_grey"
+        android:shadowDx="-20"
+        android:shadowDy="20"
+        android:shadowRadius="30"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+
         android:id="@+id/launch_reg_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Material3.Chip"
+
+        android:shadowColor="@color/yellow_accent"
+        android:shadowDx="-60"
+        android:shadowDy="60"
+        android:shadowRadius="60"
+
         android:onClick="gotoReg"
+
         android:text="Register"
         android:fontFamily="@font/fredoka_one"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="35sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/launch_login_button" />
+        app:layout_constraintTop_toBottomOf="@+id/launch_login_button"
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

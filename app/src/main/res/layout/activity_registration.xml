@@ -13,21 +13,32 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
-        android:ems="10"
+
         android:hint="Enter email"
         android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/fredoka_one"
+        android:ems="10"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <EditText
         android:id="@+id/password_edit_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:ems="10"
+
         android:hint="Enter password"
         android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/fredoka_one"
+        android:ems="10"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
@@ -37,9 +48,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:ems="10"
+
         android:hint="Repeat password"
         android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/fredoka_one"
+        android:ems="10"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_edit_text" />
@@ -48,20 +64,34 @@
         android:id="@+id/confirm_password_input"
         android:layout_width="195dp"
         android:layout_height="195dp"
+
+        app:srcCompat="@drawable/blindr_mascot_updated"
         android:clipToOutline="true"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/blindr_mascot"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/reg_button"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Material3.Chip"
+
         android:text="Register"
         android:onClick="registerUser"
+        android:fontFamily="@font/fredoka_one"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        android:shadowColor="@color/yellow_accent"
+        android:shadowDx="-60"
+        android:shadowDy="60"
+        android:shadowRadius="60"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/re_password_edit_text" />
+        app:layout_constraintTop_toBottomOf="@+id/re_password_edit_text"
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
