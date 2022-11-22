@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "667194611849",
-    "project_id": "blindr-ea4c9",
-    "storage_bucket": "blindr-ea4c9.appspot.com"
+    "project_number": "201813413159",
+    "project_id": "blindr-73878",
+    "storage_bucket": "blindr-73878.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:667194611849:android:15a598717c000256de8e58",
+        "mobilesdk_app_id": "1:201813413159:android:412eb44b3a71c74c6fed02",
         "android_client_info": {
           "package_name": "com.example.blindr"
         }
       },
       "oauth_client": [
         {
-          "client_id": "667194611849-uaccmu5c6qcgbd4o37tcmp6okquhcrr2.apps.googleusercontent.com",
+          "client_id": "201813413159-0mpojkfm5rmduonol05ro9f60ak2uvml.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPN3_S5Fc-H_tkupXwM2ZkrbUdQybPGsk"
+          "current_key": "AIzaSyD8-bKyKje63VMhtwyqZZBuOUg7ggs4O6c"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "667194611849-uaccmu5c6qcgbd4o37tcmp6okquhcrr2.apps.googleusercontent.com",
+              "client_id": "201813413159-0mpojkfm5rmduonol05ro9f60ak2uvml.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -57,7 +57,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_input"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit_text"
         tools:visibility="visible" />
 
     <ImageView
@@ -83,6 +83,7 @@
         android:shadowDy="60"
         android:shadowRadius="60"
         android:text="Sign Up"
+        android:onClick="registerUser"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"

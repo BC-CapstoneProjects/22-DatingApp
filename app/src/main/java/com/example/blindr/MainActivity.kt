@@ -11,11 +11,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    public fun gotoLogin(view: View) {
+    fun gotoLogin(view: View) {
         startActivity(Intent(this, LoginActivity::class.java))
     }
-//
-    public fun gotoSignUp(view: View) {
+
+    fun gotoSignUp(view: View) {
         startActivity(Intent(this, SignUpActivity::class.java))
     }
 }
